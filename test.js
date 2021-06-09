@@ -37,11 +37,18 @@ const fromToken = [
 ];
 const fromTokenDecimals = [18];
 
-const toTokens = ['BUSD'];
+// const toTokens = ['BUSD'];
+// const toToken = [
+//     '0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56' // BUSD
+// ];
+
+const toTokens = ['BUSD', 'TOKAU'];
 const toToken = [
-    '0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56' // BUSD
+    '0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56',
+    '0xC409eC8a33f31437Ed753C82EEd3c5F16d6D7e22' // TOKAU
 ];
-const toTokenDecimals = [18];
+
+const toTokenDecimals = [18,18];
 const amount = process.env.BNB_AMOUNT;
 
 const init = async () => {
